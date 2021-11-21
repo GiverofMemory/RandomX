@@ -5,7 +5,7 @@ We plan on staying up-to-date with any important or critical updates of RandomX,
 
 RandomXB can operate in two main modes with different memory requirements:
 
-* **Fast mode** - requires 38655 MiB of shared memory. This is intended to be run on a server or workstation with at least 39gb of RAM. This requirement should always be kept above reasonable GPU's and currently GPU's are limited to 32gb onboard memory.
+* **Fast mode** - requires 38655 MiB of shared memory. This is intended to be run on a server or workstation with at least 39gb of RAM. This requirement should always be kept above reasonable GPU's and currently GPU's are limited to 32gb onboard memory. Fast mode will run fastest with 202mb of combined L1, L2, and L3 cache. This is intended to stay above reasonable GPU's which currently have up to 180mb of L3 cache.  it should still be able to be run at lower cache values but at a speed reduction.
 * **Light mode** - requires only 2098 MiB of shared memory, but runs significantly slower. This is intended to be run on a desktop or laptop (possibly smartphone) running a node that has at least 3gb of RAM.
 
 # RandomX
