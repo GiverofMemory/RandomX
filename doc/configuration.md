@@ -25,7 +25,7 @@ These parameters can be modified in source file [configuration.h](../src/configu
 |`RANDOMX_FREQ_*` (29x)|Instruction frequencies|multiple values|
 |`RANDOMX_FREQ_ISTORE`|Store instruction frequency|`16`|
 
-Not all of the parameters can be changed safely (see #unsafe-configurations) and most parameters have some contraints on what values can be selected (checked at compile-time).
+Not all of the parameters can be changed safely (see (#unsafe-configurations)) and most parameters have some contraints on what values can be selected (checked at compile-time).
 
 **Disclaimer: The compile-time checks only prevent obviously broken configurations. Passing the checks does not imply that the configuration is safe and will not cause crashes or other issues. We recommend that each non-standard configuration is thoroughly tested before being deployed.**
 
