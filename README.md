@@ -3,6 +3,11 @@ RandomXB is simply a unique configuration of RandomX designed to maximize GPU un
 
 We plan on staying up-to-date with any important or critical updates of RandomX, supporting RandomX development, and changing our parameters in order to stay ahead of any reasonably competitive GPU (or ASIC or FPGA) speedup.
 
+RandomXB can operate in two main modes with different memory requirements:
+
+* **Fast mode** - requires 38655 MiB of shared memory. This is intended to be run on a server or workstation with at least 39gb of RAM. This requirement should always be kept above reasonable GPU's and currently GPU's are limited to 32gb onboard memory.
+* **Light mode** - requires only 2098 MiB of shared memory, but runs significantly slower. This is intended to be run on a desktop or laptop running a node that has at least 2gb of RAM.
+
 # RandomX
 RandomX is a proof-of-work (PoW) algorithm that is optimized for general-purpose CPUs. RandomX uses random code execution (hence the name) together with several memory-hard techniques to minimize the efficiency advantage of specialized hardware.
 
