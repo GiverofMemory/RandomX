@@ -7,16 +7,16 @@ These parameters can be modified in source file [configuration.h](../src/configu
 |parameter|description|default value|
 |---------|-----|-------|
 |`RANDOMX_ARGON_MEMORY`|The number of 1 KiB Argon2 blocks in the Cache| `2097152`|
-|`RANDOMX_ARGON_ITERATIONS`|The number of Argon2d iterations for Cache initialization|`3`|
+|`RANDOMX_ARGON_ITERATIONS`|The number of Argon2d iterations for Cache initialization|`7`|
 |`RANDOMX_ARGON_LANES`|The number of parallel lanes for Cache initialization|`1`|
 |`RANDOMX_ARGON_SALT`|Argon2 salt|`"RandomXB\x01"`|
-|`RANDOMX_CACHE_ACCESSES`|The number of random Cache accesses per Dataset item|`18`|
+|`RANDOMX_CACHE_ACCESSES`|The number of random Cache accesses per Dataset item|`20`|
 |`RANDOMX_SUPERSCALAR_LATENCY`|Target latency for SuperscalarHash (in cycles of the reference CPU)|`170`|
 |`RANDOMX_DATASET_BASE_SIZE`|Dataset base size in bytes|`4294967296`|
 |`RANDOMX_DATASET_EXTRA_SIZE`|Dataset extra size in bytes|`34359738368`|
 |`RANDOMX_PROGRAM_SIZE`|The number of instructions in a RandomX program|`32768`|
-|`RANDOMX_PROGRAM_ITERATIONS`|The number of iterations per program|`571`|
-|`RANDOMX_PROGRAM_COUNT`|The number of programs per hash|`4`|
+|`RANDOMX_PROGRAM_ITERATIONS`|The number of iterations per program|`763`|
+|`RANDOMX_PROGRAM_COUNT`|The number of programs per hash|`16`|
 |`RANDOMX_JUMP_BITS`|Jump condition mask size in bits|`8`|
 |`RANDOMX_JUMP_OFFSET`|Jump condition mask offset in bits|`8`|
 |`RANDOMX_SCRATCHPAD_L3`|Scratchpad size in bytes|`67108864`|
