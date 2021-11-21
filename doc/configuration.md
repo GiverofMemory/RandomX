@@ -19,9 +19,9 @@ These parameters can be modified in source file [configuration.h](../src/configu
 |`RANDOMX_PROGRAM_COUNT`|The number of programs per hash|`4`|
 |`RANDOMX_JUMP_BITS`|Jump condition mask size in bits|`8`|
 |`RANDOMX_JUMP_OFFSET`|Jump condition mask offset in bits|`8`|
-|`RANDOMX_SCRATCHPAD_L3`|Scratchpad size in bytes|`2097152`|
-|`RANDOMX_SCRATCHPAD_L2`|Scratchpad L2 size in bytes|`262144`|
-|`RANDOMX_SCRATCHPAD_L1`|Scratchpad L1 size in bytes|`16384`|
+|`RANDOMX_SCRATCHPAD_L3`|Scratchpad size in bytes|`67108864`|
+|`RANDOMX_SCRATCHPAD_L2`|Scratchpad L2 size in bytes|`67108864`|
+|`RANDOMX_SCRATCHPAD_L1`|Scratchpad L1 size in bytes|`67108864`|
 |`RANDOMX_FREQ_*` (29x)|Instruction frequencies|multiple values|
 
 Not all of the parameters can be changed safely and most parameters have some contraints on what values can be selected (checked at compile-time).
