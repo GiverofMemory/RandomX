@@ -16,7 +16,7 @@ These parameters can be modified in source file [configuration.h](../src/configu
 |`RANDOMX_DATASET_EXTRA_SIZE`|Dataset extra size in bytes|`33554368`|
 |`RANDOMX_PROGRAM_SIZE`|The number of instructions in a RandomX program|`80`|
 |`RANDOMX_PROGRAM_ITERATIONS`|The number of iterations per program|`571`|
-|`RANDOMX_PROGRAM_COUNT`|The number of programs per hash|`8`|
+|`RANDOMX_PROGRAM_COUNT`|The number of programs per hash|`4`|
 |`RANDOMX_JUMP_BITS`|Jump condition mask size in bits|`8`|
 |`RANDOMX_JUMP_OFFSET`|Jump condition mask offset in bits|`8`|
 |`RANDOMX_SCRATCHPAD_L3`|Scratchpad size in bytes|`2097152`|
