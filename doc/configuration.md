@@ -6,8 +6,8 @@ These parameters can be modified in source file [configuration.h](../src/configu
 
 |parameter|description|default value|
 |---------|-----|-------|
-|`RANDOMX_ARGON_MEMORY`|The number of 1 KiB Argon2 blocks in the Cache| `262144`|
-|`RANDOMX_ARGON_ITERATIONS`|The number of Argon2d iterations for Cache initialization|`3`|
+|`RANDOMX_ARGON_MEMORY`|The number of 1 KiB Argon2 blocks in the Cache| `2097152`|
+|`RANDOMX_ARGON_ITERATIONS`|The number of Argon2d iterations for Cache initialization|`18`|
 |`RANDOMX_ARGON_LANES`|The number of parallel lanes for Cache initialization|`1`|
 |`RANDOMX_ARGON_SALT`|Argon2 salt|`"RandomX\x03"`|
 |`RANDOMX_CACHE_ACCESSES`|The number of random Cache accesses per Dataset item|`8`|
