@@ -23,6 +23,7 @@ These parameters can be modified in source file [configuration.h](../src/configu
 |`RANDOMX_SCRATCHPAD_L2`|Scratchpad L2 size in bytes|`67108864`|
 |`RANDOMX_SCRATCHPAD_L1`|Scratchpad L1 size in bytes|`67108864`|
 |`RANDOMX_FREQ_*` (29x)|Instruction frequencies|multiple values|
+|`RANDOMX_FREQ_ISTORE`|Store instruction frequency|`16`|
 
 Not all of the parameters can be changed safely and most parameters have some contraints on what values can be selected (checked at compile-time).
 
