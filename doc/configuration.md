@@ -7,10 +7,10 @@ These parameters can be modified in source file [configuration.h](../src/configu
 |parameter|description|default value|
 |---------|-----|-------|
 |`RANDOMX_ARGON_MEMORY`|The number of 1 KiB Argon2 blocks in the Cache| `2097152`|
-|`RANDOMX_ARGON_ITERATIONS`|The number of Argon2d iterations for Cache initialization|`18`|
+|`RANDOMX_ARGON_ITERATIONS`|The number of Argon2d iterations for Cache initialization|`3`|
 |`RANDOMX_ARGON_LANES`|The number of parallel lanes for Cache initialization|`1`|
 |`RANDOMX_ARGON_SALT`|Argon2 salt|`"RandomX\x03"`|
-|`RANDOMX_CACHE_ACCESSES`|The number of random Cache accesses per Dataset item|`8`|
+|`RANDOMX_CACHE_ACCESSES`|The number of random Cache accesses per Dataset item|`18`|
 |`RANDOMX_SUPERSCALAR_LATENCY`|Target latency for SuperscalarHash (in cycles of the reference CPU)|`170`|
 |`RANDOMX_DATASET_BASE_SIZE`|Dataset base size in bytes|`4294967296`|
 |`RANDOMX_DATASET_EXTRA_SIZE`|Dataset extra size in bytes|`34359738368`|
