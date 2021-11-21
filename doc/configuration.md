@@ -1,4 +1,4 @@
-# RandomX configuration
+# RandomXB configuration
 
 RandomX has 45 customizable parameters (see table below). We recommend each project using RandomX to select a unique configuration to prevent network attacks from hashpower rental services.
 
