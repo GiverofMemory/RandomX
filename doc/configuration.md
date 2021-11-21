@@ -212,7 +212,7 @@ Making changes to the default values is not recommended. The only exceptions are
 |`RANDOMX_FREQ_FADD_M`|5|4|
 |`RANDOMX_FREQ_FSUB_M`|5|6|
 
-## Unsafe configurations
+## Unsafe configurations [top](#randomxb-configuration)
 
 There are some configurations that are considered 'unsafe' because they affect the security of the algorithm against attacks. If the conditions listed below are not satisfied, the configuration is unsafe and a compilation error is emitted when building the RandomX library.
 
