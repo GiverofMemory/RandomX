@@ -1,7 +1,7 @@
 # RandomXB
-RandomXB is simply a unique configuration of RandomX designed to maximize GPU unfreindliness of the algorithm.  we have seen with monero hashrate that the stock configuration does not provide good enough resistance to shadow optimization likely corresponding to using GPU's with a large L2 or L3 cache.
+RandomXB is simply a unique configuration of RandomX designed to maximize GPU unfriendliness of the algorithm.  We have seen with ([Monero hashrate](https://www.coinwarz.com/mining/monero/hashrate-chart)) that in late 2019 after the RandomX introduction there has been a continuously high increasing hashrate.  this shows us that the stock configuration does not provide good enough resistance to shadow optimization likely corresponding to using GPU's with a large L2 or L3 cache.
 
-we plan on staying up-to-date with any important or critical updates of RandomX, supporting RandomX development, and changing parameters in order to stay ahead of any reasonably competitive GPU (or ASIC or FPGA) speedup.
+We plan on staying up-to-date with any important or critical updates of RandomX, supporting RandomX development, and changing our parameters in order to stay ahead of any reasonably competitive GPU (or ASIC or FPGA) speedup.
 
 # RandomX
 RandomX is a proof-of-work (PoW) algorithm that is optimized for general-purpose CPUs. RandomX uses random code execution (hence the name) together with several memory-hard techniques to minimize the efficiency advantage of specialized hardware.
