@@ -1,3 +1,5 @@
+May move to [Bitbucket](https://bitbucket.org/naturevault/) or [Gitlab](https://gitlab.com/giverofmemory/) due to mandatory 2FA here.
+
 # RandomXB
 RandomXB is simply a unique configuration of RandomX designed to maximize GPU and ASIC unfriendliness of the algorithm.  We have seen looking at the [Monero hashrate](https://www.coinwarz.com/mining/monero/hashrate-chart) that in late 2019 after the RandomX introduction that there has been a continuously high rate of network hashrate increase, comparable to when ASIC's were introduced for Cryptonight.  This shows us that the stock configuration of RandomX does not provide good enough resistance to shadow optimization - likely corresponding to using GPU's with a large L2 or L3 caches.  ASIC's are [probably not yet to blame](https://github.com/tevador/RandomX/issues/11) and [here](https://github.com/tevador/RandomX/issues/31#issuecomment-476594599).
 
